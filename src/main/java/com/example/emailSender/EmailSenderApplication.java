@@ -19,8 +19,8 @@ public class EmailSenderApplication {
    
 	@EventListener(ApplicationReadyEvent.class)
 	public void triggerMail() throws MessagingException {
-		//service.sendEmail("jagdalekiran572@gmail.com", "This is email body", "Subject part check");
+		//service.sendEmail("xyz@gmail.com", "This is email body", "Subject part check");
 		
-		service.sendEmailWithAttachment("SachinMore7121@gmail.com", "this is trial email for  body with attachment ", "this Email has attachment", "C:\\Users\\Kiran Jagdale\\Downloads\\car2.jpg");
+		service.sendEmailWithAttachment("xyz121@gmail.com", "this is trial email for  body with attachment ", "this Email has attachment", "C:\\Users\\Kiran Jagdale\\Downloads\\car2.jpg");
 	}
 }
